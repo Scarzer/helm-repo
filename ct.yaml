@@ -1,0 +1,4 @@
+# See https://github.com/helm/charts/0
+remote: origin
+chart-dirs:
+    - charts
