@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  pg_superset:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-09-04T18:29:59.684910885Z"
+    description: A Helm chart for Kubernetes
+    digest: 01fe9e07372677daa3fdd2dc3cd1e29765c5052f24d67d33deaa121aa8774347
+    name: pg_superset
+    type: application
+    urls:
+    - https://github.com/Scarzer/helm-repo/releases/download/pg_superset-0.1.0/pg_superset-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-09-04T18:29:59.684942455Z"
