@@ -1,0 +1,9 @@
+dependencies:
+- name: postgresql
+  repository: https://charts.bitnami.com/bitnami
+  version: 15.5.29
+- name: redash
+  repository: https://getredash.github.io/contrib-helm-chart
+  version: 3.0.1
+digest: sha256:710a4b9ccbdac3ca2395669eb343b039f73bad61be8c896f574d0b40349deeeb
+generated: "2024-09-27T19:00:12.226381-04:00"
