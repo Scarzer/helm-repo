@@ -23,4 +23,4 @@ spec:
             restartPolicy: Never
             containers:
             - name: post-install-job
-              image: 
+              image: alpine/psql
