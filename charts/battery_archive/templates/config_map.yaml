@@ -1,0 +1,24 @@
+apiVersion: v1 
+kind: ConfigMap
+metadata:
+  name: "{{ .Release.Name }}-configmap"
+  labels: 
+    {{ include "redash.labels" . | nindent 4 }}
+data:
+  provision-redash.sh: |
+    #!/usr/bin/env bash 
+
+    # Timeout for provisioning 
+    PROVISIONING_TIMEOUT = 60
+
+    echo "This script will provision Redash with the provided credentials"
+
+    . /config/dynamicenv.sh 
+
+    if [[ "${1}" == "install" ]]; then 
+      echo "As part of installation, provisioning Redash"
+      timeout $PROVISIONING_TIMEOUT 
+      echo `env`
+      ls /app
+
+    fi    

@@ -93,9 +93,9 @@ tolerations: []
 
 affinity: {}
 
-database:
-  pgUser: battery_archive
-  pgPass: foobar
+archive:
+  redashEmail: irving.derin@gmail.com
+  redashPassword: batteries
 
 postgresql:
   enabled: true

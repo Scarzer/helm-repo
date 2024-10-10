@@ -1,5 +1,5 @@
 apiVersion: v2
-name: battery_archive
+name: battery-archive
 description: A Helm chart for deploying Battery Archive
 
 # A chart can be either an 'application' or a 'library' chart.
